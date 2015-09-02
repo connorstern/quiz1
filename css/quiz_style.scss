@@ -1,0 +1,96 @@
+/* Quiz styles */
+//variables
+$color:aliceblue;
+$font:sans-serif;
+$margin:50px;
+$padding:10px;
+
+header {
+    border: 2px solid #064277;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: $padding;
+    background-color:$color;
+    text-align: center;
+}
+
+body {
+    width: 600px;
+    margin: auto;
+    background-color:#dadadb;
+font: {
+    family:$font;
+    size: 1em;
+    style:oblique;   
+    
+}
+}
+
+
+h1 {
+    color:#58a0e0;
+}
+
+#content {
+    border: 2px solid #064277;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding:$padding;
+    background-color:$color;
+}
+
+#list{
+    border: 2px solid #064277;
+    border-radius: 20px;
+    background-color:$color;
+}
+
+h2 {
+    color: #064277;
+}
+
+h3 {
+    margin-left:$margin;
+    color:#58a0e0
+}
+
+ul{
+    margin-left:$margin;
+}
+
+p{
+   
+        font:{
+            
+    family: serif;
+    style:normal;
+    }
+}
+
+.samplepara {
+    border: 3px solid #58a0e0;
+    border-radius: 5px;
+    padding:$padding;
+    background-color: white;
+}
+
+footer {
+    border: 2px solid #064277;
+    border-radius: 20px;
+    margin: 10px auto;
+    padding:$padding;
+    background-color:$color;
+}
+
+#footer {
+    color: #064277;
+    text-align: center;
+font:{
+        size: .75em;
+        style:italic;
+        weight: bold;
+        
+    }
+}
+
+
